@@ -46,7 +46,7 @@ const renderHeader = () => render(NavigationHeader, { global: { plugins: [create
 it('should render the default state properly', async () => {
   const screen = renderHeader()
 
-  await expect.element(screen.getByRole('button', { name: 'GeoGuessLite' })).toBeVisible()
+  await expect.element(screen.getByRole('button', { name: 'FormGuessr' })).toBeVisible()
   await expect.element(screen.getByText('Sign Up').first()).toBeInTheDocument()
 })
 
@@ -63,13 +63,13 @@ it('should hide account actions until authentication has loaded', async () => {
 it('should navigate home from the brand', async () => {
   const screen = renderHeader()
 
-  await screen.getByRole('button', { name: 'GeoGuessLite' }).click()
+  await screen.getByRole('button', { name: 'FormGuessr' }).click()
 
   expect(push).toHaveBeenCalledWith('/')
 })
 
 it.each([
-  ['GitHub repository link', 'https://github.com/spider-hand/GeoGuessLite'],
+  ['GitHub repository link', 'https://github.com/spider-hand/FormGuessr'],
   ['Discord server link', 'https://discord.gg/H9RwrfgeDH'],
   ['GeoChess link', 'https://geochess.org'],
 ] as const)('should open the configured %s community link', async (label, url) => {

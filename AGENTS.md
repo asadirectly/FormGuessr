@@ -1,4 +1,4 @@
-# GeoGuessLite
+# FormGuessr
 
 ## Directory Structure
 

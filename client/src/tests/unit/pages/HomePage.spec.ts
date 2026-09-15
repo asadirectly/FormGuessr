@@ -104,7 +104,7 @@ it.each(['create room', 'enter room', 'daily challenge'] as const)(
       await screen.getByRole('button', { name: 'Start Game' }).last().click()
 
     await expect
-      .element(screen.getByRole('dialog', { name: 'Welcome to GeoGuessLite' }))
+      .element(screen.getByRole('dialog', { name: 'Welcome to FormGuessr' }))
       .toBeVisible()
     expect(router.currentRoute.value.path).toBe('/')
   },

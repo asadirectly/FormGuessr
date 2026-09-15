@@ -101,7 +101,7 @@ const syncResultLine = () => {
     type: 'line',
     source: resultLineSourceId,
     slot: 'top',
-    paint: { 'line-color': '#fcd535', 'line-opacity': 0.9, 'line-width': 3 },
+    paint: { 'line-color': '#a855f7', 'line-opacity': 0.9, 'line-width': 3 },
   })
 }
 

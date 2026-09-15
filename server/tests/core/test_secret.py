@@ -11,7 +11,7 @@ def setup_function():
 
 @patch.dict("os.environ", {"ENVIRONMENT": "dev"}, clear=True)
 def test_get_app_secret_name_uses_environment():
-    assert get_app_secret_name() == "geoguesslite-dev"
+    assert get_app_secret_name() == "formguessr-dev"
 
 
 @patch.dict("os.environ", {}, clear=True)
@@ -34,7 +34,7 @@ def test_get_secrets_reads_stage_scoped_json_secret(mock_get_secret_json):
         "firebase_service_account": {"type": "service_account"},
         "mapillary_token": "mapillary-token",
     }
-    mock_get_secret_json.assert_called_once_with("geoguesslite-dev")
+    mock_get_secret_json.assert_called_once_with("formguessr-dev")
 
 
 @patch.dict("os.environ", {"ENVIRONMENT": "dev"}, clear=True)

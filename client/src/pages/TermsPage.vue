@@ -14,9 +14,9 @@ import NavigationHeader from '@/components/shared/NavigationHeader.vue'
       </header>
 
       <section>
-        <h2>Using GeoGuessLite</h2>
+        <h2>Using FormGuessr</h2>
         <p>
-          By using GeoGuessLite, you agree to these Terms of Service. GeoGuessLite is provided for
+          By using FormGuessr, you agree to these Terms of Service. FormGuessr is provided for
           playing chess with AI opponents and other players.
         </p>
       </section>
@@ -24,7 +24,7 @@ import NavigationHeader from '@/components/shared/NavigationHeader.vue'
       <section>
         <h2>Your responsibilities</h2>
         <p>
-          Use GeoGuessLite lawfully and respectfully. Do not misuse the service, interfere with
+          Use FormGuessr lawfully and respectfully. Do not misuse the service, interfere with
           other players, attempt unauthorized access, or use the service to harm others.
         </p>
       </section>
@@ -41,7 +41,7 @@ import NavigationHeader from '@/components/shared/NavigationHeader.vue'
       <section>
         <h2>Availability and changes</h2>
         <p>
-          GeoGuessLite may change, suspend, or discontinue features at any time. The service is
+          FormGuessr may change, suspend, or discontinue features at any time. The service is
           provided as available, without warranties of any kind.
         </p>
       </section>
@@ -49,7 +49,7 @@ import NavigationHeader from '@/components/shared/NavigationHeader.vue'
       <section>
         <h2>Limitation of liability</h2>
         <p>
-          To the fullest extent permitted by applicable law, GeoGuessLite is not liable for
+          To the fullest extent permitted by applicable law, FormGuessr is not liable for
           indirect, incidental, special, consequential, or punitive damages arising from your use of
           the service.
         </p>

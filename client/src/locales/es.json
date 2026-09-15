@@ -282,7 +282,7 @@
         "geoChessLink": "Enlace a GeoChess"
       },
       "SignUpPromptModal": {
-        "title": "Te damos la bienvenida a GeoGuessLite",
+        "title": "Te damos la bienvenida a FormGuessr",
         "description": "Regístrate para jugar con amigos y unirte a partidas en línea.",
         "signUp": "Registrarse",
         "close": "Cerrar aviso de registro"
@@ -296,7 +296,7 @@
       },
       "NavigationFooter": {
         "navigationLabel": "Navegación del pie de página",
-        "credit": "© {year} GeoGuessLite Todos los derechos reservados.",
+        "credit": "© {year} FormGuessr Todos los derechos reservados.",
         "privacy": "Privacidad",
         "terms": "Términos",
         "contact": "Contacto"

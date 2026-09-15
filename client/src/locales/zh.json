@@ -282,7 +282,7 @@
         "geoChessLink": "GeoChess 链接"
       },
       "SignUpPromptModal": {
-        "title": "欢迎来到 GeoGuessLite",
+        "title": "欢迎来到 FormGuessr",
         "description": "注册后即可与好友对战并加入在线比赛。",
         "signUp": "注册",
         "close": "关闭注册提示"
@@ -296,7 +296,7 @@
       },
       "NavigationFooter": {
         "navigationLabel": "页脚导航",
-        "credit": "© {year} GeoGuessLite 版权所有。",
+        "credit": "© {year} FormGuessr 版权所有。",
         "privacy": "隐私",
         "terms": "条款",
         "contact": "联系"

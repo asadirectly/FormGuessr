@@ -18,7 +18,7 @@ import type { SupportedLanguage } from '@/types/language'
 
 defineOptions({ name: 'SharedNavigationHeader' })
 
-const GITHUB_URL = 'https://github.com/spider-hand/GeoGuessLite'
+const GITHUB_URL = 'https://github.com/spider-hand/FormGuessr'
 const DISCORD_URL = 'https://discord.gg/H9RwrfgeDH'
 const GEOCHESS_URL = 'https://geochess.org'
 const { locale, t } = useI18n({ useScope: 'global' })
@@ -118,7 +118,7 @@ useOnClickOutside({ root: mobileMenuRoot, close: closeMobileMenu })
       :aria-label="t('components.shared.NavigationHeader.primaryNavigationLabel')"
     >
       <button class="navigation-header__brand" type="button" @click="router.push('/')">
-        GeoGuessLite
+        FormGuessr
       </button>
 
       <div class="navigation-header__actions">

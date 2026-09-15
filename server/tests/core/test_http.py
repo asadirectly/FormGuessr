@@ -59,8 +59,8 @@ def test_parse_json_body_returns_an_empty_object_for_an_absent_body():
 
 
 def test_parse_json_body_returns_valid_object_bodies():
-    assert parse_json_body(make_event(body='{"name":"GeoGuessLite"}')) == {"name": "GeoGuessLite"}
-    assert parse_json_body(make_event(body={"name": "GeoGuessLite"})) == {"name": "GeoGuessLite"}
+    assert parse_json_body(make_event(body='{"name":"FormGuessr"}')) == {"name": "FormGuessr"}
+    assert parse_json_body(make_event(body={"name": "FormGuessr"})) == {"name": "FormGuessr"}
 
 
 @pytest.mark.parametrize("body", ["{", "[]"])

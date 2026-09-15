@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: "geoguesslite",
+      name: "formguessr",
       removal: input?.stage === "prod" ? "retain" : "remove",
       protect: ["prod"].includes(input?.stage),
       home: "aws",
@@ -16,7 +16,7 @@ export default $config({
   },
   async run() {
     const api = new sst.aws.ApiGatewayV2("Api");
-    const appSecretArn = `arn:aws:secretsmanager:*:*:secret:geoguesslite-${$app.stage}*`;
+    const appSecretArn = `arn:aws:secretsmanager:*:*:secret:formguessr-${$app.stage}*`;
     const appSecretPermission = sst.aws.permission({
       actions: ["secretsmanager:GetSecretValue"],
       resources: [appSecretArn],

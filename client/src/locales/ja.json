@@ -282,7 +282,7 @@
         "geoChessLink": "GeoChess へのリンク"
       },
       "SignUpPromptModal": {
-        "title": "GeoGuessLiteへようこそ",
+        "title": "FormGuessrへようこそ",
         "description": "フレンド対戦やオンライン対戦に参加するにはサインアップしてください。",
         "signUp": "サインアップ",
         "close": "サインアップ案内を閉じる"
@@ -296,7 +296,7 @@
       },
       "NavigationFooter": {
         "navigationLabel": "フッターナビゲーション",
-        "credit": "© {year} GeoGuessLite All rights reserved.",
+        "credit": "© {year} FormGuessr All rights reserved.",
         "privacy": "プライバシー",
         "terms": "利用規約",
         "contact": "お問い合わせ"

@@ -14,7 +14,7 @@ def get_app_secret_name() -> str:
     environment = os.getenv("ENVIRONMENT")
     if not environment:
         raise ValueError("ENVIRONMENT is required to resolve the app secret name.")
-    return f"geoguesslite-{environment}"
+    return f"formguessr-{environment}"
 
 
 @lru_cache(maxsize=None)
